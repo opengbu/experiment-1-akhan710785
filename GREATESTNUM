@@ -1,0 +1,32 @@
+// AAMIR KHAN
+//Bsc(H) Physics
+// Roll no-19/BHP/007
+// PROGRAME FOR GREATEST OF THREE
+
+
+#include <iostream>6
+using namespace std;
+int main()
+{    
+    float A, B, C;
+    cout<<"give the value of A  ";
+    cin>>A;
+    
+    cout<<"give the value of B  ";
+    cin>>B;
+    cout<< "give the value of C  ";
+    cin>>C;
+    
+    if(A > B && A > C)
+    {
+        cout << "Largest number: " << A;
+    }
+    if(B > A && B >  C)
+    {
+        cout << "Largest number: " << B;
+    }
+    if(C > A && C >= B) {
+        cout << "Largest number is  " << C;
+    }
+    return 0;
+}
